@@ -1,0 +1,32 @@
+/* Comments in CSS look like this */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #AA6939;
+    color: #ffceaa;
+}
+
+img{
+    border: 3px dashed #801515;
+}
+
+h1{
+    border: 6px double #FFAAAA;
+}
+
+blockquote {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+cite{
+    font-size: 1.5rem;
+}
+
+.bigboldtext {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3rem;
+}
