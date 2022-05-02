@@ -19,6 +19,7 @@ blockquote {
     font-size: 2rem;
     font-style: italic;
     text-align: center;
+    text-decoration: underline;
 }
 
 cite{
@@ -30,3 +31,44 @@ cite{
     font-style: italic;
     font-size: 1.3rem;
 }
+
+h3 {
+    text-align: right;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-type: square;
+}
+
+p:hover {
+    font-size: 1.3rem;
+}
+
+/* Color Theme Swatches in Hex */
+.UI/UX-1-hex { color: #A68256; }
+.UI/UX-2-hex { color: #F2EFEB; }
+.UI/UX-3-hex { color: #D9BCA3; }
+.UI/UX-4-hex { color: #8C3616; }
+.UI/UX-5-hex { color: #400C08; }
+
+/* Color Theme Swatches in RGBA */
+.UI/UX-1-rgba { color: rgba(165, 129, 86, 1); }
+.UI/UX-2-rgba { color: rgba(242, 238, 234, 1); }
+.UI/UX-3-rgba { color: rgba(216, 187, 162, 1); }
+.UI/UX-4-rgba { color: rgba(140, 53, 22, 1); }
+.UI/UX-5-rgba { color: rgba(63, 12, 7, 1); }
+
+/* Color Theme Swatches in HSLA */
+.UI/UX-1-hsla { color: hsla(33, 31, 49, 1); }
+.UI/UX-2-hsla { color: hsla(33, 22, 93, 1); }
+.UI/UX-3-hsla { color: hsla(28, 41, 74, 1); }
+.UI/UX-4-hsla { color: hsla(16, 72, 31, 1); }
+.UI/UX-5-hsla { color: hsla(5, 78, 14, 1); }
