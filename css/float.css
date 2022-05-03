@@ -16,4 +16,5 @@ article{
 article::after{
     content: "";
     display: table;
+    clear: both;
 }
