@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width:100%;
+    border: 3px solid blue;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    margin-left: 10rem;
+}
+
+nav li{
+    width:5rem;
+    background-color: aqua;
+    text-decoration: none;
+    margin-left: 1rem;
+margin-bottom: 0.5rem;
+text-align: center;
+/* padding: 0.5rem; */
+display: inline-block; /* this is used to switch b/w vertical and horizontal*/
+
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding:0.5rem;
+}
+
+nav a:hover{
+    font-size:1.1rem;
+    background-color: aquamarine;
+    color: red;
+}
